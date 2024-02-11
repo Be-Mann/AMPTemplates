@@ -1,0 +1,30 @@
+[
+    {
+        "Protocol": "UDP",
+        "Port": "28015",
+        "Name": "Main Game Port",
+        "Description": "Port used for main game traffic",
+        "Ref": "MainGamePort"
+    },
+    {
+        "Protocol": "UDP",
+        "Port": "28016",
+        "Name": "Steam Query Port",
+        "Description": "Port used for main game traffic",
+        "Ref": "SteamQueryPort"
+    },
+    {
+        "Protocol": "TCP",
+        "Port": "28017",
+        "Name": "Remote Admin Port",
+        "Description": "Port used for main game traffic",
+        "Ref": "RemoteAdminPort"
+    },
+    {
+        "Protocol": "TCP",
+        "Port": "28018",
+        "Name": "Rust+ App Port",
+        "Description": "Port used for main game traffic",
+        "Ref": "RustAppPort"
+    }
+]
