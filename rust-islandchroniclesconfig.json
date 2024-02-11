@@ -35,8 +35,8 @@
         "Hidden": false,
         "SkipIfEmpty": false,
         "EnumValues": {
-            "Standard": "public",
-            "Staging": "staging",
+            "public": "Standard",
+            "staging": "Staging",
             "Aux01": "aux01",
             "Aux02": "aux02"
         }
