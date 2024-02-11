@@ -1,17 +1,5 @@
 [
     {
-        "DisplayName":"Public IP",
-        "Category":"Rust",
-        "Description":"",
-        "Keywords":"",
-        "FieldName":"$ExternalIP",
-        "InputType":"text",
-        "Hidden":false,
-        "ParamFieldName":"PublicIP",
-        "DefaultValue": "$ApplicationIPBinding",
-        "EnumValues":{}
-    },
-    {
         "DisplayName": "Install Oxide",
         "Category": "Rust",
         "Description": "Auto-installs UMod (Formerly Oxide mod) when the server is updated",
