@@ -6,12 +6,8 @@
         "UpdateSourceData": "252490",
         "UpdateSourceArgs": "258550",
         "UpdateSourceVersion": "{{releasestream}}",
-        "UnzipUpdateSource": false,
-        "OverwriteExistingFiles": false,
         "UpdateSourceConditionSetting": "AutoUpdate",
         "UpdateSourceConditionValue": "true",
-        "DeleteAfterExtract": true,
-        "OneShot": false
     },
     {
         "UpdateStageName": "Download Oxide Windows",
