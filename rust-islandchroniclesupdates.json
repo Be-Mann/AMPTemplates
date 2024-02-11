@@ -45,6 +45,6 @@
         "UpdateSourcePlatform":"Windows",
         "UpdateSource":"Executable",
         "UpdateSourceData":"cmd.exe",
-        "UpdateSourceArgs":"/C mkdir \"{{$FullBaseDir}}logs\"
+        "UpdateSourceArgs":"/C mkdir \"{{$FullBaseDir}}logs\""
     }
 ]
