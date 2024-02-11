@@ -16,7 +16,7 @@
         "UnzipUpdateSource": true,
         "OverwriteExistingFiles": true,
         "UpdateSourceConditionSetting": "InstallOxide",
-        "UpdateSourceConditionValue": "true",
+        "UpdateSourceConditionValue": "True",
         "DeleteAfterExtract": true,
         "OneShot": false
     },
@@ -29,8 +29,22 @@
         "UnzipUpdateSource": true,
         "OverwriteExistingFiles": true,
         "UpdateSourceConditionSetting": "InstallOxide",
-        "UpdateSourceConditionValue": "true",
+        "UpdateSourceConditionValue": "True",
         "DeleteAfterExtract": true,
         "OneShot": false
+    },
+    {
+        "UpdateStageName":"Log Directory Creation",
+        "UpdateSourcePlatform":"Linux",
+        "UpdateSource":"Executable",
+        "UpdateSourceData":"/bin/bash",
+        "UpdateSourceArgs":"-c 'mkdir -p \"{{$FullBaseDir}}logs\"'"
+    },
+    {
+        "UpdateStageName":"Log Directory Creation",
+        "UpdateSourcePlatform":"Windows",
+        "UpdateSource":"Executable",
+        "UpdateSourceData":"cmd.exe",
+        "UpdateSourceArgs":"/C mkdir \"{{$FullBaseDir}}logs\"
     }
 ]

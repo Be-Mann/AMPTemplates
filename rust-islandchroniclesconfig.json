@@ -1,22 +1,28 @@
 [
     {
+        "DisplayName":"Public IP",
+        "Category":"Rust",
+        "Description":"",
+        "Keywords":"",
+        "FieldName":"$ExternalIP",
+        "InputType":"text",
+        "Hidden":false,
+        "ParamFieldName":"PublicIP",
+        "DefaultValue": "$ApplicationIPBinding",
+        "EnumValues":{}
+    },
+    {
         "DisplayName": "Install Oxide",
         "Category": "Rust",
         "Description": "Auto-installs UMod (Formerly Oxide mod) when the server is updated",
         "Keywords": "install,oxide",
         "FieldName": "InstallOxide",
         "InputType": "checkbox",
-        "IsFlagArgument": false,
         "ParamFieldName": "InstallOxide",
-        "IncludeInCommandLine": false,
         "DefaultValue": "false",
-        "Placeholder": "false",
-        "Suffix": "",
-        "Hidden": false,
-        "SkipIfEmpty": false,
         "EnumValues": {
-            "true": "True",
-            "false": "False"
+            "True": "true",
+            "False": "false"
         }
     },
     {
@@ -26,14 +32,9 @@
         "Keywords": "server,release,stream",
         "FieldName": "releasestream",
         "InputType": "enum",
-        "IsFlagArgument": false,
         "ParamFieldName": "releasestream",
-        "IncludeInCommandLine": false,
-        "DefaultValue": "public",
-        "Placeholder": "public",
-        "Suffix": "",
+        "DefaultValue": "Standard",
         "Hidden": false,
-        "SkipIfEmpty": false,
         "EnumValues": {
             "public": "Standard",
             "staging": "Staging",
@@ -41,41 +42,29 @@
             "Aux02": "aux02"
         }
     },
-    {
-        "DisplayName": "Use Network Steamworks",
-        "Category": "Rust",
-        "Description": "Use the Steam network Steamworks for the server, instead of Raknet",
-        "Keywords": "use,network,steamworks",
-        "FieldName": "swnet",
-        "InputType": "checkbox",
-        "IsFlagArgument": false,
-        "ParamFieldName": "swnet",
-        "IncludeInCommandLine": false,
-        "DefaultValue": "",
-        "Placeholder": "",
-        "Suffix": "",
-        "Hidden": false,
-        "SkipIfEmpty": false,
-        "EnumValues": {
-            "-swnet": "True",
-            "": "False"
+	{		
+		"DisplayName": "Use Network Steamworks",
+		"Category": "Rust",
+		"Description": "Use the Steam network Steamworks for the server, instead of Raknet",
+		"Keywords": "use,network,steamworks",
+		"FieldName": "swnet",
+        "InputType":"checkbox",
+        "ParamFieldName":"swnet",
+        "DefaultValue":"-swnet ",
+        "EnumValues":{
+            "False":"",
+            "True":"-swnet "
         }
-    },
+	},
     {
         "DisplayName": "Automatically Update",
         "Category": "Rust",
         "Description": "Whether or not to automatically update the server when updates become available",
         "Keywords": "automatically,update",
-        "FieldName": "AutoUpdate",
+        "FieldName": "$AutoUpdate",
         "InputType": "checkbox",
-        "IsFlagArgument": false,
         "ParamFieldName": "AutoUpdate",
-        "IncludeInCommandLine": false,
         "DefaultValue": "false",
-        "Placeholder": "false",
-        "Suffix": "",
-        "Hidden": false,
-        "SkipIfEmpty": false,
         "EnumValues": {
             "true": "True",
             "false": "False"
@@ -86,7 +75,7 @@
         "Category": "Rust",
         "Description": "How frequently in seconds the server should save changes to disk",
         "Keywords": "save,interval",
-        "FieldName": "saveinterval",
+        "FieldName": "$saveinterval",
         "InputType": "text",
         "IsFlagArgument": false,
         "ParamFieldName": "saveinterval",
@@ -103,7 +92,7 @@
         "Category": "Rust",
         "Description": "Path to the Rust log file",
         "Keywords": "logfile,path",
-        "FieldName": "logfile",
+        "FieldName": "$logfile",
         "InputType": "text",
         "IsFlagArgument": false,
         "ParamFieldName": "logfile",
@@ -120,7 +109,7 @@
         "Category": "Rust",
         "Description": "Additional flags to specify when starting up Rust. Will not override settings built into AMP",
         "Keywords": "custom,startup,flags",
-        "FieldName": "CustomStartupFlags",
+        "FieldName": "$CustomStartupFlags",
         "InputType": "text",
         "IsFlagArgument": false,
         "ParamFieldName": "CustomStartupFlags",
@@ -129,7 +118,7 @@
         "Placeholder": "",
         "Suffix": "",
         "Hidden": false,
-        "SkipIfEmpty": false,
+        "SkipIfEmpty": true,
         "EnumValues": {}
     },
     {
@@ -137,7 +126,7 @@
         "Category": "Rust",
         "Description": "Enter the name of the server identity in which the savegame is located.",
         "Keywords": "server,identity",
-        "FieldName": "identity",
+        "FieldName": "$identity",
         "InputType": "text",
         "IsFlagArgument": false,
         "ParamFieldName": "identity",
@@ -154,7 +143,7 @@
         "Category": "Rust",
         "Description": "",
         "Keywords": "rcon,enabled",
-        "FieldName": "RconWeb",
+        "FieldName": "$RconWeb",
         "InputType": "checkbox",
         "IsFlagArgument": false,
         "ParamFieldName": "RconWeb",
@@ -168,5 +157,15 @@
             "0": "False",
             "1": "True"
         }
+    },
+    {
+        "DisplayName":"RCON Password",
+        "Category":"Rust",
+        "Description":"See the Security and Privacy menu for configurable options for the server's RCON password. The RCON password is also used in the in-game console for players to access administrator commands",
+        "Keywords":"rcon,password,admin,adminpassword",
+        "FieldName":"$RemoteAdminPassword",
+        "InputType":"hidden",
+        "ParamFieldName":"AdminPassword",
+        "EnumValues":{}
     }
 ]
