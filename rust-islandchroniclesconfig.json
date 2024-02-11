@@ -97,16 +97,11 @@
         "Category": "Rust",
         "Description": "Additional flags to specify when starting up Rust. Will not override settings built into AMP",
         "Keywords": "custom,startup,flags",
-        "FieldName": "$CustomStartupFlags",
+        "FieldName": "CustomStartupFlags",
         "InputType": "text",
-        "IsFlagArgument": false,
         "ParamFieldName": "CustomStartupFlags",
-        "IncludeInCommandLine": false,
         "DefaultValue": "",
         "Placeholder": "",
-        "Suffix": "",
-        "Hidden": false,
-        "SkipIfEmpty": true,
         "EnumValues": {}
     },
     {
