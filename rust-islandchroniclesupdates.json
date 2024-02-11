@@ -3,8 +3,8 @@
         "UpdateStageName": "SteamCMD Download",
         "UpdateSourcePlatform": "All",
         "UpdateSource": "SteamCMD",
-        "UpdateSourceData": "252490",
-        "UpdateSourceArgs": "258550",
+        "UpdateSourceData": "258550",
+        "UpdateSourceArgs": "252490",
         "UpdateSourceVersion": "{{releasestream}}",
     },
     {
