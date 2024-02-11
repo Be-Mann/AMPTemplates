@@ -1,10 +1,9 @@
 {
     "id": "6e942f45-4d51-4793-836a-1dcbfed6f184",
-    "authors": [
-        "IslandChronicles - Made with AMP Config Generator"
-    ],
-    "origin": "https://github.com/IslandChronicles - Made with AMP Config Generator/AMPTemplates.git",
-    "url": "https://github.com/IslandChronicles - Made with AMP Config Generator/AMPTemplates",
+    "authors": ["IslandChronicles - Made with AMP Config Generator", "CubeCoders Limited", "AMP Community"],
+    "origin": "https://github.com/Be-Mann/AMPTemplates.git",
+    "url": "https://github.com/Be-Mann/AMPTemplates",
     "imagefile": "",
     "prefix": "IC"
+	"repotype": "AppTemplates"
 }
