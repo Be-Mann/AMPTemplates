@@ -1,7 +1,7 @@
 [
     {
         "DisplayName": "Install Oxide",
-        "Category": "Server Settings",
+        "Category": "Rust",
         "Description": "Auto-installs UMod (Formerly Oxide mod) when the server is updated",
         "Keywords": "install,oxide",
         "FieldName": "InstallOxide",
@@ -21,7 +21,7 @@
     },
     {
         "DisplayName": "Server Release Stream",
-        "Category": "Server Settings",
+        "Category": "Rust",
         "Description": "Sets the server release stream to install. Note: Update the server after changing this setting",
         "Keywords": "server,release,stream",
         "FieldName": "releasestream",
@@ -43,7 +43,7 @@
     },
     {
         "DisplayName": "Use Network Steamworks",
-        "Category": "Server Settings",
+        "Category": "Rust",
         "Description": "Use the Steam network Steamworks for the server, instead of Raknet",
         "Keywords": "use,network,steamworks",
         "FieldName": "swnet",
@@ -63,7 +63,7 @@
     },
     {
         "DisplayName": "Automatically Update",
-        "Category": "Server Settings",
+        "Category": "Rust",
         "Description": "Whether or not to automatically update the server when updates become available",
         "Keywords": "automatically,update",
         "FieldName": "AutoUpdate",
@@ -83,7 +83,7 @@
     },
     {
         "DisplayName": "Save Interval",
-        "Category": "Server Settings",
+        "Category": "Rust",
         "Description": "How frequently in seconds the server should save changes to disk",
         "Keywords": "save,interval",
         "FieldName": "saveinterval",
@@ -100,7 +100,7 @@
     },
     {
         "DisplayName": "Logfile Path",
-        "Category": "Server Settings",
+        "Category": "Rust",
         "Description": "Path to the Rust log file",
         "Keywords": "logfile,path",
         "FieldName": "logfile",
@@ -117,7 +117,7 @@
     },
     {
         "DisplayName": "Custom startup flags",
-        "Category": "Server Settings",
+        "Category": "Rust",
         "Description": "Additional flags to specify when starting up Rust. Will not override settings built into AMP",
         "Keywords": "custom,startup,flags",
         "FieldName": "CustomStartupFlags",
@@ -134,7 +134,7 @@
     },
     {
         "DisplayName": "Server Identity",
-        "Category": "Server Settings",
+        "Category": "Rust",
         "Description": "Enter the name of the server identity in which the savegame is located.",
         "Keywords": "server,identity",
         "FieldName": "identity",
@@ -151,7 +151,7 @@
     },
     {
         "DisplayName": "RCON Enabled",
-        "Category": "Server Settings",
+        "Category": "Rust",
         "Description": "",
         "Keywords": "rcon,enabled",
         "FieldName": "RconWeb",
