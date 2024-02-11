@@ -6,8 +6,6 @@
         "UpdateSourceData": "252490",
         "UpdateSourceArgs": "258550",
         "UpdateSourceVersion": "{{releasestream}}",
-        "UpdateSourceConditionSetting": "AutoUpdate",
-        "UpdateSourceConditionValue": "true",
     },
     {
         "UpdateStageName": "Download Oxide Windows",
