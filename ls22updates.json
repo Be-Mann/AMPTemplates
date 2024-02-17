@@ -1,0 +1,23 @@
+[
+    {
+        "UpdateStageName": "Setup LS22",
+        "UpdateSourcePlatform": "Windows",
+        "UpdateSource": "Executable",
+        "UpdateSourceData": "/SILENT /NORESTART /LANG=de /DIR={{$FullBaseDir}}",
+        "UpdateSourceArgs": "D:\\Setup.exe",
+        "UnzipUpdateSource": false,
+        "OverwriteExistingFiles": false,
+        "DeleteAfterExtract": true,
+        "OneShot": true
+    },
+    {
+        "UpdateStageName": "Update",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "Executable",
+        "UpdateSourceArgs": "FarmingSimulator2022.exe",
+        "UnzipUpdateSource": false,
+        "OverwriteExistingFiles": false,
+        "DeleteAfterExtract": true,
+        "OneShot": false
+    }
+]
