@@ -8,14 +8,14 @@
     },
     {
         "Protocol": "TCP",
-        "Port": "8443",
+        "Port": "8444",
         "Name": "Web Managment Port",
         "Description": "Port used for main game traffic",
         "Ref": "WebManagmentPort"
     },
     {
         "Protocol": "TCP",
-        "Port": "8080",
+        "Port": "8081",
         "Name": "Web Managment Port",
         "Description": "Port used for main game traffic",
         "Ref": "WebManagmentPort"
