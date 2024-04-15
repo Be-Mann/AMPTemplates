@@ -22,7 +22,7 @@
         "UpdateSourcePlatform":"Windows",
         "UpdateSource":"Executable",
         "UpdateSourceData":"cmd.exe",
-        "UpdateSourceArgs":"/C cd \"{{$FullBaseDir}}\" && echo start /wait /B /I /{{CPUPriority}} /Affinity 0x000000000000C000 RustDedicated.exe %* > {{$FullBaseDir}}start.cmd 2>&1",
+        "UpdateSourceArgs":"/C cd \"{{$FullBaseDir}}\" && echo start /wait /B /I /{{CPUPriority}} /Affinity {{CPUAffinity}} RustDedicated.exe %* > {{$FullBaseDir}}start.cmd 2>&1",
         "UpdateSourceConditionSetting":"EnableCPUPriority",
         "UpdateSourceConditionValue":"true"
     },
