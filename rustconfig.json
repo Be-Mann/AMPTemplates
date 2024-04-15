@@ -589,16 +589,32 @@
         }
     },
     {
+        "DisplayName":"Custom CPU Priority",
+        "Category":"Performance and Limits",
+        "Description":"If activated, the server is executed with priority",
+        "Keywords":"cpu,performance,limits",
+        "FieldName":"EnableCPUPriority",
+        "InputType":"checkbox",
+        "IsFlagArgument":false,
+        "ParamFieldName":"EnableCPUPriority",
+        "IncludeInCommandLine":false,
+        "DefaultValue":"false",
+        "EnumValues":{
+            "False":"false",
+            "True":"true"
+        }
+    },
+    {
         "DisplayName":"CPU Priority",
         "Category":"Performance and Limits",
-        "Description":"",
+        "Description":"Setting which priority the server has, default is Normal",
         "Keywords":"cpu,performance,limits",
         "FieldName":"CPUPriority",
         "InputType":"enum",
         "IsFlagArgument":false,
         "ParamFieldName":"CPUPriority",
         "IncludeInCommandLine":false,
-        "DefaultValue":"NORMAL",
+        "DefaultValue":"Normal",
         "EnumValues":{
             "LOW":"Low",
             "NORMAL":"Normal",
