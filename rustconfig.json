@@ -621,5 +621,35 @@
             "HIGH":"High",
             "REALTIME":"Realtime"
         }
+    },
+    {
+        "DisplayName":"CPU Affinity",
+        "Category":"Performance and Limits",
+        "Description":"Setting which priority the server has, default is Normal",
+        "Keywords":"cpu,performance,limits",
+        "FieldName":"CPUAffinity",
+        "InputType":"enum",
+        "IsFlagArgument":false,
+        "ParamFieldName":"CPUAffinity",
+        "IncludeInCommandLine":false,
+        "DefaultValue":"All",
+        "EnumValues":{
+            "FFFF":"All",
+            "3":"CPU 0-1",
+            "C":"CPU 2-3",
+            "30":"CPU 4-5",
+            "C0":"CPU 6-7",
+            "300":"CPU 8-9",
+            "C00":"CPU 10-11",
+            "3000":"CPU 12-13",
+            "C000":"CPU 14-15",
+            "F":"CPU 0-3",
+            "F0":"CPU 4-7",
+            "F00":"CPU 8-11",
+            "F000":"CPU 12-15",
+            "FF":"CPU 0-7",
+            "FF0":"CPU 4-11",
+            "FF00":"CPU 8-15",
+        }
     }
 ]
