@@ -4,7 +4,7 @@
         "UpdateSourcePlatform":"Linux",
         "UpdateSource":"Executable",
         "UpdateSourceData":"/bin/bash",
-        "UpdateSourceArgs":"-c 'cd \"{{$FullBaseDir}}\" && \"{{App.ExecutableLinux}}\" > start.cmd && chmod +x start.cmd'",
+        "UpdateSourceArgs":"-c 'cd \"{{$FullBaseDir}}\" && \"{{App.ExecutableLinux}}\" > start.cmd && chmod +x {{$FullBaseDir}}start.cmd'",
         "UpdateSourceConditionSetting":"EnableCPUPriority",
         "UpdateSourceConditionValue":"true"
     },
@@ -13,7 +13,7 @@
         "UpdateSourcePlatform":"Windows",
         "UpdateSource":"Executable",
         "UpdateSourceData":"cmd.exe",
-        "UpdateSourceArgs":"/C cd \"{{$FullBaseDir}}\" && \"start /wait /B /I /{{CPUPriority}} /Affinity 0x000000000000C000 RustDedicated.exe %*\" > start.cmd",
+        "UpdateSourceArgs":"/C cd \"{{$FullBaseDir}}\" && \"start /wait /B /I /{{CPUPriority}} /Affinity 0x000000000000C000 RustDedicated.exe %*\" > {{$FullBaseDir}}start.cmd",
         "UpdateSourceConditionSetting":"EnableCPUPriority",
         "UpdateSourceConditionValue":"true"
     },
