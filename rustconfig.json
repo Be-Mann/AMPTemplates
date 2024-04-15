@@ -587,5 +587,23 @@
             "carbon":"Carbon",
             "umod":"uMod/Oxide"
         }
+    },
+    {
+        "DisplayName":"CPU Priority",
+        "Category":"Performance and Limits",
+        "Description":"",
+        "Keywords":"cpu,performance,limits",
+        "FieldName":"CPUPriority",
+        "InputType":"enum",
+        "IsFlagArgument":false,
+        "ParamFieldName":"CPUPriority",
+        "IncludeInCommandLine":false,
+        "DefaultValue":"normal",
+        "EnumValues":{
+            "LOW":"Low",
+            "NORMAL":"Normal",
+            "HIGH":"High",
+            "REALTIME":"Realtime"
+        }
     }
 ]
