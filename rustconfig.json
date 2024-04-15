@@ -598,7 +598,7 @@
         "IsFlagArgument":false,
         "ParamFieldName":"CPUPriority",
         "IncludeInCommandLine":false,
-        "DefaultValue":"normal",
+        "DefaultValue":"NORMAL",
         "EnumValues":{
             "LOW":"Low",
             "NORMAL":"Normal",
