@@ -614,7 +614,7 @@
         "IsFlagArgument":false,
         "ParamFieldName":"CPUPriority",
         "IncludeInCommandLine":false,
-        "DefaultValue":"Normal",
+        "DefaultValue":"NORMAL",
         "EnumValues":{
             "LOW":"Low",
             "NORMAL":"Normal",
@@ -632,7 +632,7 @@
         "IsFlagArgument":false,
         "ParamFieldName":"CPUAffinity",
         "IncludeInCommandLine":false,
-        "DefaultValue":"All",
+        "DefaultValue":"FFFF",
         "EnumValues":{
             "FFFF":"All",
             "3":"CPU 0-1",
