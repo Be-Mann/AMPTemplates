@@ -230,8 +230,8 @@
         "IsFlagArgument":false,
         "ParamFieldName":"server.maxplayers",
         "IncludeInCommandLine":true,
-        "DefaultValue":"10",
-        "Placeholder":"10",
+        "DefaultValue":"20",
+        "Placeholder":"20",
         "Suffix":"players",
         "EnumValues":{}
     },
