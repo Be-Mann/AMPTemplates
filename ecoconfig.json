@@ -198,7 +198,7 @@
     },
     {
         "DisplayName":"Enable UPnP",
-        "Category":"Eco -Server Settings",
+        "Category":"Eco - Server Settings",
         "Description":"When enabled, UPnP will be enabled on the server. Requires a UPnP-enabled router to work.",
         "Keywords":"upnp",
         "FieldName":"UPnPEnabled",
