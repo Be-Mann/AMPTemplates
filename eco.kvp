@@ -17,7 +17,6 @@ Meta.ContainerPolicyReason=
 Meta.Prerequsites=[]
 Meta.ExtraContainerPackages=[]
 Meta.ConfigReleaseState=NotSpecified
-Meta.AppConfigId=45876689-7f1f-4144-8c18-3ef93db2076f
 Meta.NoCommercialUsage=False
 Meta.OriginalSource=
 App.DisplayName=Eco
