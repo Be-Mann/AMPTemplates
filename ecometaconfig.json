@@ -75,6 +75,11 @@
         "ConfigType": "json"
     },
     {
+        "ConfigFile": "Configs/WorldGenerator.eco",
+        "AutoMap": true,
+        "ConfigType": "json"
+    },
+    {
         "ConfigFile": "Configs/EcoSim.eco",
         "AutoMap": true,
         "ConfigType": "json"

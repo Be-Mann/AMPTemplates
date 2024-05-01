@@ -1347,5 +1347,33 @@
             "90":"90 seconds",
             "100":"100 seconds"
         }
-	}
+    },
+    {
+        "DisplayName":"World Width",
+        "Category":"Eco - Performance and Limits",
+        "Description":"The WorldWidth must match the WorldLength, default value is 72. Note that higher values require more CPU and memory. https://wiki.play.eco/en/Server_Configuration#Change_World_Size",
+        "Keywords":"world,width,map,mapsize,size",
+        "FieldName":"WorldWidth",
+        "InputType":"number",
+        "IsFlagArgument":false,
+        "ParamFieldName":"Dimensions.WorldWidth",
+        "IncludeInCommandLine":false,
+        "DefaultValue":"72",
+        "Placeholder":"72",
+        "EnumValues":{}
+    },
+    {
+        "DisplayName":"World Length",
+        "Category":"Eco - Performance and Limits",
+        "Description":"The WorldLength must match the WorldWidth, default value is 72. Note that higher values require more CPU and memory. https://wiki.play.eco/en/Server_Configuration#Change_World_Size",
+        "Keywords":"world,length,map,mapsize,size",
+        "FieldName":"WorldLength",
+        "InputType":"number",
+        "IsFlagArgument":false,
+        "ParamFieldName":"Dimensions.WorldLength",
+        "IncludeInCommandLine":false,
+        "DefaultValue":"72",
+        "Placeholder":"72",
+        "EnumValues":{}
+    }
 ]
