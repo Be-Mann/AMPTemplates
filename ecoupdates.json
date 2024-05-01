@@ -23,7 +23,8 @@
     "UpdateSource":"CopyFilePath",
     "UpdateSourceData":"{{$FullBaseDir}}Configs/Backup.eco",
     "UpdateSourceArgs":"{{$FullBaseDir}}Configs/Backup.eco.template",
-    "OverwriteExistingFiles":false
+    "OverwriteExistingFiles":false,
+    "SkipOnFailure":true
   },
   {
     "UpdateStageName":"Balance Config Copy",
@@ -31,7 +32,8 @@
     "UpdateSource":"CopyFilePath",
     "UpdateSourceData":"{{$FullBaseDir}}Configs/Balance.eco",
     "UpdateSourceArgs":"{{$FullBaseDir}}Configs/Balance.eco.template",
-    "OverwriteExistingFiles":false
+    "OverwriteExistingFiles":false,
+    "SkipOnFailure":true
   },
   {
     "UpdateStageName":"Civics Config Copy",
@@ -39,7 +41,8 @@
     "UpdateSource":"CopyFilePath",
     "UpdateSourceData":"{{$FullBaseDir}}Configs/Civics.eco",
     "UpdateSourceArgs":"{{$FullBaseDir}}Configs/Civics.eco.template",
-    "OverwriteExistingFiles":false
+    "OverwriteExistingFiles":false,
+    "SkipOnFailure":true
   },
   {
     "UpdateStageName":"Difficulty Config Copy",
@@ -47,7 +50,8 @@
     "UpdateSource":"CopyFilePath",
     "UpdateSourceData":"{{$FullBaseDir}}Configs/Difficulty.eco",
     "UpdateSourceArgs":"{{$FullBaseDir}}Configs/Difficulty.eco.template",
-    "OverwriteExistingFiles":false
+    "OverwriteExistingFiles":false,
+    "SkipOnFailure":true
   },
   {
     "UpdateStageName":"Disasters Config Copy",
@@ -55,7 +59,8 @@
     "UpdateSource":"CopyFilePath",
     "UpdateSourceData":"{{$FullBaseDir}}Configs/Disasters.eco",
     "UpdateSourceArgs":"{{$FullBaseDir}}Configs/Disasters.eco.template",
-    "OverwriteExistingFiles":false
+    "OverwriteExistingFiles":false,
+    "SkipOnFailure":true
   },
   {
     "UpdateStageName":"EcoSim Config Copy",
@@ -63,7 +68,8 @@
     "UpdateSource":"CopyFilePath",
     "UpdateSourceData":"{{$FullBaseDir}}Configs/EcoSim.eco",
     "UpdateSourceArgs":"{{$FullBaseDir}}Configs/EcoSim.eco.template",
-    "OverwriteExistingFiles":false
+    "OverwriteExistingFiles":false,
+    "SkipOnFailure":true
   },
   {
     "UpdateStageName":"Features Config Copy",
@@ -71,7 +77,8 @@
     "UpdateSource":"CopyFilePath",
     "UpdateSourceData":"{{$FullBaseDir}}Configs/Features.eco",
     "UpdateSourceArgs":"{{$FullBaseDir}}Configs/Features.eco.template",
-    "OverwriteExistingFiles":false
+    "OverwriteExistingFiles":false,
+    "SkipOnFailure":true
   },
   {
     "UpdateStageName":"Localization Config Copy",
@@ -79,7 +86,8 @@
     "UpdateSource":"CopyFilePath",
     "UpdateSourceData":"{{$FullBaseDir}}Configs/Localization.eco",
     "UpdateSourceArgs":"{{$FullBaseDir}}Configs/Localization.eco.template",
-    "OverwriteExistingFiles":false
+    "OverwriteExistingFiles":false,
+    "SkipOnFailure":true
   },
   {
     "UpdateStageName":"Maintenance Config Copy",
@@ -87,7 +95,8 @@
     "UpdateSource":"CopyFilePath",
     "UpdateSourceData":"{{$FullBaseDir}}Configs/Maintenance.eco",
     "UpdateSourceArgs":"{{$FullBaseDir}}Configs/Maintenance.eco.template",
-    "OverwriteExistingFiles":false
+    "OverwriteExistingFiles":false,
+    "SkipOnFailure":true
   },
   {
     "UpdateStageName":"ModKit Config Copy",
@@ -95,7 +104,8 @@
     "UpdateSource":"CopyFilePath",
     "UpdateSourceData":"{{$FullBaseDir}}Configs/ModKit.eco",
     "UpdateSourceArgs":"{{$FullBaseDir}}Configs/ModKit.eco.template",
-    "OverwriteExistingFiles":false
+    "OverwriteExistingFiles":false,
+    "SkipOnFailure":true
   },
   {
     "UpdateStageName":"Network Config Copy",
@@ -103,7 +113,8 @@
     "UpdateSource":"CopyFilePath",
     "UpdateSourceData":"{{$FullBaseDir}}Configs/Network.eco",
     "UpdateSourceArgs":"{{$FullBaseDir}}Configs/Network.eco.template",
-    "OverwriteExistingFiles":false
+    "OverwriteExistingFiles":false,
+    "SkipOnFailure":true
   },
   {
     "UpdateStageName":"Pause Config Copy",
@@ -111,7 +122,8 @@
     "UpdateSource":"CopyFilePath",
     "UpdateSourceData":"{{$FullBaseDir}}Configs/Pause.eco",
     "UpdateSourceArgs":"{{$FullBaseDir}}Configs/Pause.eco.template",
-    "OverwriteExistingFiles":false
+    "OverwriteExistingFiles":false,
+    "SkipOnFailure":true
   },
   {
     "UpdateStageName":"Profanity Config Copy",
@@ -119,7 +131,8 @@
     "UpdateSource":"CopyFilePath",
     "UpdateSourceData":"{{$FullBaseDir}}Configs/Profanity.eco",
     "UpdateSourceArgs":"{{$FullBaseDir}}Configs/Profanity.eco.template",
-    "OverwriteExistingFiles":false
+    "OverwriteExistingFiles":false,
+    "SkipOnFailure":true
   },
   {
     "UpdateStageName":"Rooms Config Copy",
@@ -127,7 +140,8 @@
     "UpdateSource":"CopyFilePath",
     "UpdateSourceData":"{{$FullBaseDir}}Configs/Rooms.eco",
     "UpdateSourceArgs":"{{$FullBaseDir}}Configs/Rooms.eco.template",
-    "OverwriteExistingFiles":false
+    "OverwriteExistingFiles":false,
+    "SkipOnFailure":true
   },
   {
     "UpdateStageName":"Sleep Config Copy",
@@ -135,7 +149,8 @@
     "UpdateSource":"CopyFilePath",
     "UpdateSourceData":"{{$FullBaseDir}}Configs/Sleep.eco",
     "UpdateSourceArgs":"{{$FullBaseDir}}Configs/Sleep.eco.template",
-    "OverwriteExistingFiles":false
+    "OverwriteExistingFiles":false,
+    "SkipOnFailure":true
   },
   {
     "UpdateStageName":"Stats Config Copy",
@@ -143,7 +158,8 @@
     "UpdateSource":"CopyFilePath",
     "UpdateSourceData":"{{$FullBaseDir}}Configs/Stats.eco",
     "UpdateSourceArgs":"{{$FullBaseDir}}Configs/Stats.eco.template",
-    "OverwriteExistingFiles":false
+    "OverwriteExistingFiles":false,
+    "SkipOnFailure":true
   },
   {
     "UpdateStageName":"Storage Config Copy",
@@ -151,7 +167,8 @@
     "UpdateSource":"CopyFilePath",
     "UpdateSourceData":"{{$FullBaseDir}}Configs/Storage.eco",
     "UpdateSourceArgs":"{{$FullBaseDir}}Configs/Storage.eco.template",
-    "OverwriteExistingFiles":false
+    "OverwriteExistingFiles":false,
+    "SkipOnFailure":true
   },
   {
     "UpdateStageName":"Users Config Copy",
@@ -159,7 +176,8 @@
     "UpdateSource":"CopyFilePath",
     "UpdateSourceData":"{{$FullBaseDir}}Configs/Users.eco",
     "UpdateSourceArgs":"{{$FullBaseDir}}Configs/Users.eco.template",
-    "OverwriteExistingFiles":false
+    "OverwriteExistingFiles":false,
+    "SkipOnFailure":true
   },
   {
     "UpdateStageName":"WorldGenerator Config Copy",
@@ -167,7 +185,8 @@
     "UpdateSource":"CopyFilePath",
     "UpdateSourceData":"{{$FullBaseDir}}Configs/WorldGenerator.eco.eco",
     "UpdateSourceArgs":"{{$FullBaseDir}}Configs/WorldGenerator.eco.template",
-    "OverwriteExistingFiles":false
+    "OverwriteExistingFiles":false,
+    "SkipOnFailure":true
   },
   {
     "UpdateStageName":"Twitch Config Copy",
@@ -175,7 +194,8 @@
     "UpdateSource":"CopyFilePath",
     "UpdateSourceData":"{{$FullBaseDir}}Configs/Twitch.eco",
     "UpdateSourceArgs":"{{$FullBaseDir}}Configs/Twitch.eco.template",
-    "OverwriteExistingFiles":false
+    "OverwriteExistingFiles":false,
+    "SkipOnFailure":true
   },
   {
     "UpdateStageName":"WorldGenerator Config Copy",
@@ -183,7 +203,8 @@
     "UpdateSource":"CopyFilePath",
     "UpdateSourceData":"{{$FullBaseDir}}Configs/WorldGenerator.eco.eco",
     "UpdateSourceArgs":"{{$FullBaseDir}}Configs/WorldGenerator.eco.template",
-    "OverwriteExistingFiles":false
+    "OverwriteExistingFiles":false,
+    "SkipOnFailure":true
   },
   {
     "UpdateStageName":"WorldObjects Config Copy",
@@ -191,6 +212,7 @@
     "UpdateSource":"CopyFilePath",
     "UpdateSourceData":"{{$FullBaseDir}}Configs/WorldObjects.eco",
     "UpdateSourceArgs":"{{$FullBaseDir}}Configs/WorldObjects.eco.template",
-    "OverwriteExistingFiles":false
+    "OverwriteExistingFiles":false,
+    "SkipOnFailure":true
   }
 ]
