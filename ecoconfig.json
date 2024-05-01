@@ -1231,19 +1231,19 @@
         "DefaultValue":"English",
         "EnumValues":{
             "English":"English",
-            "Français":"Français",
-            "Español":"Español",
-            "Deutsch":"Deutsch",
-            "한국어":"한국어",
-            "Português (Brasil)":"Português (Brasil)",
-            "汉语":"汉语",
-            "Русский":"Русский",
-            "Italiano":"Italiano",
-            "Português":"Português",
-            "日本語":"日本語",
-            "Polski":"Polski",
-            "Українська":"Українська",
-            "Türk":"Türk"
+            "French":"Français",
+            "Spanish":"Español",
+            "German":"Deutsch",
+            "Korean":"한국어",
+            "Portuguese, Brazilian":"Português (Brasil)",
+            "Chinese Simplified":"汉语",
+            "Russian":"Русский",
+            "Italian":"Italiano",
+            "Portuguese":"Português",
+            "Japanese":"日本語",
+            "Polish":"Polski",
+            "Ukrainian":"Українська",
+            "Turkish":"Türk"
         }
     },
     {
