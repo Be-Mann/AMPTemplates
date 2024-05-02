@@ -170,15 +170,6 @@
     "SkipOnFailure":true
   },
   {
-    "UpdateStageName":"WorldGenerator Config Copy",
-    "UpdateSourcePlatform":"All",
-    "UpdateSource":"CopyFilePath",
-    "UpdateSourceData":"{{$FullBaseDir}}Configs/WorldGenerator.eco.eco",
-    "UpdateSourceArgs":"{{$FullBaseDir}}Configs/WorldGenerator.eco.template",
-    "OverwriteExistingFiles":false,
-    "SkipOnFailure":true
-  },
-  {
     "UpdateStageName":"Twitch Config Copy",
     "UpdateSourcePlatform":"All",
     "UpdateSource":"CopyFilePath",
@@ -188,10 +179,18 @@
     "SkipOnFailure":true
   },
   {
+    "UpdateStageName":"World Config Copy",
+    "UpdateSourcePlatform":"All",
+    "UpdateSource":"CopyFilePath",
+    "UpdateSourceData":"{{$FullBaseDir}}Configs/World.eco",
+    "UpdateSourceArgs":"{{$FullBaseDir}}Configs/World.eco.template",
+    "OverwriteExistingFiles":false
+  },
+  {
     "UpdateStageName":"WorldGenerator Config Copy",
     "UpdateSourcePlatform":"All",
     "UpdateSource":"CopyFilePath",
-    "UpdateSourceData":"{{$FullBaseDir}}Configs/WorldGenerator.eco.eco",
+    "UpdateSourceData":"{{$FullBaseDir}}Configs/WorldGenerator.eco",
     "UpdateSourceArgs":"{{$FullBaseDir}}Configs/WorldGenerator.eco.template",
     "OverwriteExistingFiles":false,
     "SkipOnFailure":true
