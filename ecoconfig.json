@@ -1359,5 +1359,19 @@
         "DefaultValue":"72",
         "Placeholder":"72",
         "EnumValues":{}
+    },
+    {
+        "DisplayName":"Water Level",
+        "Category":"Eco - Performance and Limits",
+        "Description":"The WaterLevel indicates the height of the water level.",
+        "Keywords":"world,water,level,waterlevel",
+        "FieldName":"WaterLevel",
+        "InputType":"number",
+        "IsFlagArgument":false,
+        "ParamFieldName":"WaterLevel",
+        "IncludeInCommandLine":false,
+        "DefaultValue":"60",
+        "Placeholder":"60",
+        "EnumValues":{}
     }
 ]
