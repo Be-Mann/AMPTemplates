@@ -184,7 +184,8 @@
     "UpdateSource":"CopyFilePath",
     "UpdateSourceData":"{{$FullBaseDir}}Configs/World.eco",
     "UpdateSourceArgs":"{{$FullBaseDir}}Configs/World.eco.template",
-    "OverwriteExistingFiles":false
+    "OverwriteExistingFiles":false,
+    "SkipOnFailure":true
   },
   {
     "UpdateStageName":"WorldGenerator Config Copy",
