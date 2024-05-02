@@ -1,6 +1,6 @@
 [
   {
-    "UpdateStageName":"SteamCMD Download",
+    "UpdateStageName":"Eco Download",
     "UpdateSourcePlatform":"All",
     "UpdateSource":"SteamCMD",
     "UpdateSourceData":"739590",
@@ -10,7 +10,7 @@
     "UpdateSourceConditionValue":"false"
   },
   {
-    "UpdateStageName":"SteamCMD Download",
+    "UpdateStageName":"Eco Beta Download",
     "UpdateSourcePlatform":"All",
     "UpdateSource":"SteamCMD",
     "UpdateSourceData":"739590",
