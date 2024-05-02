@@ -5,19 +5,7 @@
     "UpdateSource":"SteamCMD",
     "UpdateSourceData":"739590",
     "UpdateSourceArgs":"382310",
-    "UpdateSourceVersion":"public",
-    "UpdateSourceConditionSetting":"EnableBeta",
-    "UpdateSourceConditionValue":"false"
-  },
-  {
-    "UpdateStageName":"Eco Beta Download",
-    "UpdateSourcePlatform":"All",
-    "UpdateSource":"SteamCMD",
-    "UpdateSourceData":"739590",
-    "UpdateSourceArgs":"382310",
-    "UpdateSourceVersion":"{{BetaBranch}}",
-    "UpdateSourceConditionSetting":"EnableBeta",
-    "UpdateSourceConditionValue":"true"
+    "UpdateSourceVersion":"{{ServerBranch}}",
   },
   {
     "UpdateStageName":"Backup Config Copy",
