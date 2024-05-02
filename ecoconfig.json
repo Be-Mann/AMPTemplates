@@ -376,7 +376,7 @@
         "FieldName":"EnableBeta",
         "InputType":"checkbox",
         "IsFlagArgument":false,
-        "ParamFieldName":"EnableBeta",
+        "ParamFieldName":"",
         "IncludeInCommandLine":false,
         "DefaultValue":"false",
         "EnumValues":{
@@ -392,7 +392,7 @@
         "FieldName":"BetaBranch",
         "InputType":"text",
         "IsFlagArgument":false,
-        "ParamFieldName":"BetaBranch",
+        "ParamFieldName":"",
         "IncludeInCommandLine":false,
         "DefaultValue":"",
         "Placeholder":"",
