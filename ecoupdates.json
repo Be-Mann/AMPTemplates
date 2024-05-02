@@ -4,6 +4,7 @@
     "UpdateSourcePlatform":"All",
     "UpdateSource":"SteamCMD",
     "UpdateSourceData":"739590",
+    "UpdateSourceArgs":"382310",
     "UpdateSourceVersion":"public",
     "UpdateSourceConditionSetting":"EnableBeta",
     "UpdateSourceConditionValue":"false"
@@ -13,6 +14,7 @@
     "UpdateSourcePlatform":"All",
     "UpdateSource":"SteamCMD",
     "UpdateSourceData":"739590",
+    "UpdateSourceArgs":"382310",
     "UpdateSourceVersion":"{{BetaBranch}}",
     "UpdateSourceConditionSetting":"EnableBeta",
     "UpdateSourceConditionValue":"true"
