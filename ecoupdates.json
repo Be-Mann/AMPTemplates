@@ -7,7 +7,7 @@
     "UpdateSourceArgs":"382310",
     "UpdateSourceVersion":"public",
     "UpdateSourceConditionSetting":"EnableBeta",
-    "UpdateSourceConditionValue":"false"
+    "UpdateSourceConditionValue":"False"
   },
   {
     "UpdateStageName":"Eco Beta Download",
@@ -17,7 +17,7 @@
     "UpdateSourceArgs":"382310",
     "UpdateSourceVersion":"{{BetaBranch}}",
     "UpdateSourceConditionSetting":"EnableBeta",
-    "UpdateSourceConditionValue":"true"
+    "UpdateSourceConditionValue":"True"
   },
   {
     "UpdateStageName":"Backup Config Copy",
