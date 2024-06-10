@@ -42,7 +42,8 @@
         "UpdateSourceData":"/bin/bash",
         "UpdateSourceArgs":"-c 'cd \"{{$FullBaseDir}}server/{{serveridentity}}\" && rm -f *.map *.sav* {{ModDBWipelist}} >/dev/null 2>&1; cd \"{{$FullBaseDir}}carbon/data\" && rm -f {{CarbonOxideDataWipelist}} >/dev/null 2>&1; cd \"{{$FullBaseDir}}oxide/data\" && rm -f {{CarbonOxideDataWipelist}} >/dev/null 2>&1'",
         "UpdateSourceConditionSetting":"EnableWipe",
-        "UpdateSourceConditionValue":"true"
+        "UpdateSourceConditionValue":"true",
+        "SkipOnFailure":true
     },
     {
         "UpdateStageName":"Wipe Server Files",
@@ -51,7 +52,8 @@
         "UpdateSourceData":"cmd.exe",
         "UpdateSourceArgs":"/C cd \"{{$FullBaseDir}}server\\{{serveridentity}}\" && del /Q /F *.map *.sav* {{ModDBWipelist}} > NUL 2>&1 & cd \"{{$FullBaseDir}}carbon\\data\" && del /Q /F {{CarbonOxideDataWipelist}} > NUL 2>&1 & cd \"{{$FullBaseDir}}oxide\\data\" && del /Q /F {{CarbonOxideDataWipelist}} > NUL 2>&1",
         "UpdateSourceConditionSetting":"EnableWipe",
-        "UpdateSourceConditionValue":"true"
+        "UpdateSourceConditionValue":"true",
+        "SkipOnFailure":true
     },
     {
         "UpdateStageName":"Remove Carbon",
@@ -60,7 +62,8 @@
         "UpdateSourceData":"/bin/bash",
         "UpdateSourceArgs":"-c 'cd ./rust/258550 && rm -rf carbon carbon.sh libdoorstop.so >/dev/null 2>&1'",
         "UpdateSourceConditionSetting":"ModLoader",
-        "UpdateSourceConditionValue":"umod"
+        "UpdateSourceConditionValue":"umod",
+        "SkipOnFailure":true
     },
     {
         "UpdateStageName":"Remove Carbon",
@@ -69,7 +72,8 @@
         "UpdateSourceData":"cmd.exe",
         "UpdateSourceArgs":"/C cd rust\\258550 && del /Q /F doorstop_config.ini winhttp.dll > NUL 2>&1 && rd /S /Q carbon > NUL 2>&1",
         "UpdateSourceConditionSetting":"ModLoader",
-        "UpdateSourceConditionValue":"umod"
+        "UpdateSourceConditionValue":"umod",
+        "SkipOnFailure":true
     },
     {
         "UpdateStageName":"Remove Carbon",
@@ -78,7 +82,8 @@
         "UpdateSourceData":"/bin/bash",
         "UpdateSourceArgs":"-c 'cd ./rust/258550 && rm -rf carbon carbon.sh libdoorstop.so >/dev/null 2>&1'",
         "UpdateSourceConditionSetting":"ModLoader",
-        "UpdateSourceConditionValue":"none"
+        "UpdateSourceConditionValue":"none",
+        "SkipOnFailure":true
     },
     {
         "UpdateStageName":"Remove Carbon",
@@ -87,7 +92,8 @@
         "UpdateSourceData":"cmd.exe",
         "UpdateSourceArgs":"/C cd rust\\258550 && del /Q /F doorstop_config.ini winhttp.dll > NUL 2>&1 && rd /S /Q carbon > NUL 2>&1",
         "UpdateSourceConditionSetting":"ModLoader",
-        "UpdateSourceConditionValue":"none"
+        "UpdateSourceConditionValue":"none",
+        "SkipOnFailure":true
     },
     {
         "UpdateStageName":"Remove uMod",
@@ -96,7 +102,8 @@
         "UpdateSourceData":"/bin/bash",
         "UpdateSourceArgs":"-c 'cd ./rust/258550 && rm -rf oxide Oxide.Compiler compiler*.log RustDedicated_Data/Managed/Oxide* >/dev/null 2>&1'",
         "UpdateSourceConditionSetting":"ModLoader",
-        "UpdateSourceConditionValue":"carbon"
+        "UpdateSourceConditionValue":"carbon",
+        "SkipOnFailure":true
     },
     {
         "UpdateStageName":"Remove uMod",
@@ -105,7 +112,8 @@
         "UpdateSourceData":"cmd.exe",
         "UpdateSourceArgs":"/C cd rust\\258550 && del /Q /F Oxide.Compiler.exe compiler*.log RustDedicated_Data\\Managed\\Oxide* > NUL 2>&1 && rd /S /Q oxide > NUL 2>&1",
         "UpdateSourceConditionSetting":"ModLoader",
-        "UpdateSourceConditionValue":"carbon"
+        "UpdateSourceConditionValue":"carbon",
+        "SkipOnFailure":true
     },
     {
         "UpdateStageName":"Remove uMod",
@@ -114,7 +122,8 @@
         "UpdateSourceData":"/bin/bash",
         "UpdateSourceArgs":"-c 'cd ./rust/258550 && rm -rf oxide Oxide.Compiler compiler*.log RustDedicated_Data/Managed/Oxide* >/dev/null 2>&1'",
         "UpdateSourceConditionSetting":"ModLoader",
-        "UpdateSourceConditionValue":"none"
+        "UpdateSourceConditionValue":"none",
+        "SkipOnFailure":true
     },
     {
         "UpdateStageName":"Remove uMod",
@@ -123,7 +132,8 @@
         "UpdateSourceData":"cmd.exe",
         "UpdateSourceArgs":"/C cd rust\\258550 && del /Q /F Oxide.Compiler.exe compiler*.log RustDedicated_Data\\Managed\\Oxide* > NUL 2>&1 && rd /S /Q oxide > NUL 2>&1",
         "UpdateSourceConditionSetting":"ModLoader",
-        "UpdateSourceConditionValue":"none"
+        "UpdateSourceConditionValue":"none",
+        "SkipOnFailure":true
     },
     {
         "UpdateStageName":"Rust Download",
