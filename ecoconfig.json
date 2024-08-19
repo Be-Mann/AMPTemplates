@@ -292,7 +292,7 @@
     {
         "DisplayName":"Save Name",
         "Category":"Eco:stadia_controller",
-		"Subcategory":"Server Settings:settings:1",
+        "Subcategory":"Server Settings:settings:1",
         "Description":"Name of the save to load at startup.",
         "Keywords":"save,name",
         "FieldName":"SaveName",
@@ -307,7 +307,7 @@
     {
         "DisplayName":"Save Frequency",
         "Category":"Eco:stadia_controller",
-		"Subcategory":"Server Settings:settings:1",
+        "Subcategory":"Server Settings:settings:1",
         "Description":"How often to write changed data to disk.",
         "Keywords":"save,frequency",
         "FieldName":"SaveFrequency",
@@ -323,7 +323,7 @@
     {
         "DisplayName":"Cleanup Files On Exceptions",
         "Category":"Eco:stadia_controller",
-		"Subcategory":"Server Settings:settings:1",
+        "Subcategory":"Server Settings:settings:1",
         "Description":"When enabled, removes failed to load objects upon loading.",
         "Keywords":"cleanup,files,exceptions",
         "FieldName":"CleanupFilesOnExceptions",
@@ -340,7 +340,7 @@
     {
         "DisplayName":"Storage Directory",
         "Category":"Eco:stadia_controller",
-		"Subcategory":"Server Settings:settings:1",
+        "Subcategory":"Server Settings:settings:1",
         "Description":"Path for storage (leave as \"Storage\" for default settings).",
         "Keywords":"storage,directory",
         "FieldName":"StorageDirectory",
@@ -355,7 +355,7 @@
     {
         "DisplayName":"New Game Template",
         "Category":"Eco:stadia_controller",
-		"Subcategory":"Server Settings:settings:1",
+        "Subcategory":"Server Settings:settings:1",
         "Description":"Path to file to start game from for a new world, if blank (null) then the world will be generated.",
         "Keywords":"new,game,template",
         "FieldName":"NewGameTemplate",
@@ -369,7 +369,7 @@
     {
         "DisplayName":"Auto Shutdown Hour",
         "Category":"Eco:stadia_controller",
-		"Subcategory":"Server Settings:settings:1",
+        "Subcategory":"Server Settings:settings:1",
         "Description":"Defines the announcement countdown intervalss. The second countdown is handled by the Countdown Start setting. -1 = disabled)",
         "Keywords":"auto,shutdown,hour",
         "FieldName":"AutoShutdownHour",
@@ -385,7 +385,7 @@
     {
         "DisplayName":"Auto Shutdown Reason",
         "Category":"Eco:stadia_controller",
-		"Subcategory":"Server Settings:settings:1",
+        "Subcategory":"Server Settings:settings:1",
         "Description":"Specifies the message to be sent when the automatic restart auto shutdown occurs.",
         "Keywords":"auto,shutdown,reason",
         "FieldName":"AutoShutdownReason",
@@ -400,7 +400,7 @@
     {
         "DisplayName":"Countdown Start",
         "Category":"Eco:stadia_controller",
-		"Subcategory":"Server Settings:settings:1",
+        "Subcategory":"Server Settings:settings:1",
         "Description":"Specifies how many seconds until the shutdown counter starts.",
         "Keywords":"countdown,start",
         "FieldName":"CountdownStart",
@@ -416,7 +416,7 @@
     {
         "DisplayName":"Web Server URL",
         "Category":"Eco:stadia_controller",
-		"Subcategory":"Server Settings:settings:1",
+        "Subcategory":"Server Settings:settings:1",
         "Description":"Web server URL. If not specified then remote IP address will be used. Usually should be ignored, but may be desired to use SSL or a friendly name. Uses default http/https port if not explicit port specified. Format: http(s)://myserver.com:[port]",
         "Keywords":"web,server,url",
         "FieldName":"WebServerUrl",
@@ -431,7 +431,7 @@
     {
         "DisplayName":"SLG Account Name",
         "Category":"Eco:stadia_controller",
-		"Subcategory":"Server Settings:settings:1",
+        "Subcategory":"Server Settings:settings:1",
         "Description":"The user account associated with the server. This will be shared with clients and will allow achievements earned by players on this server to be visible in other servers (as well as future features to come). Visit [play.eco](https://play.eco/) to link your steam account or create a new account.",
         "Keywords":"slg,account,name",
         "FieldName":"SLGAccountName",
@@ -445,7 +445,7 @@
     {
         "DisplayName":"SLG Account Password",
         "Category":"Eco:stadia_controller",
-		"Subcategory":"Server Settings:settings:1",
+        "Subcategory":"Server Settings:settings:1",
         "Description":"Password for the SLG Account.",
         "Keywords":"slg,account,password",
         "FieldName":"SLGAccountPassword",
@@ -458,7 +458,8 @@
     },
     {
         "DisplayName":"Server Branch",
-        "Category":"SteamCMD and Updates",
+        "Category":"Updates",
+        "Subcategory":"Steam Downloads:download",
         "Description":"Sets the server branch to install. NOTE: Update the server after switching branches!",
         "Keywords":"server,branch,depot",
         "FieldName":"ServerBranch",
@@ -472,7 +473,8 @@
     },
     {
         "DisplayName":"Time of Day Scale",
-        "Category":"Eco - Gameplay",
+        "Category":"Eco:stadia_controller",
+        "Subcategory":"Gameplay:tactic:2",
         "Description":"Scales how much time of day matches real time. Higher numbers result in shorter day/night cycles (as a value of X seconds per real-world second), but will not affect simulation speed.",
         "Keywords":"time,day,scale",
         "FieldName":"TimeOfDayScale",
@@ -487,7 +489,8 @@
     },
     {
         "DisplayName":"Time Multiplier",
-        "Category":"Eco - Gameplay",
+        "Category":"Eco:stadia_controller",
+        "Subcategory":"Gameplay:tactic:2",
         "Description":"Game progress time advances at this rate.",
         "Keywords":"time,multiplier",
         "FieldName":"TimeMult",
@@ -501,7 +504,8 @@
     },
     {
         "DisplayName":"Specialty Cost Multiplier",
-        "Category":"Eco - Gameplay",
+        "Category":"Eco:stadia_controller",
+        "Subcategory":"Gameplay:tactic:2",
         "Description":"Multiplier applied to the cost of learning a specialty. Values below 1 decrease specialty cost, above 1 increase specialty cost.",
         "Keywords":"specialty,cost,multiplier",
         "FieldName":"SpecialtyCostMultiplier",
@@ -515,7 +519,8 @@
     },
     {
         "DisplayName":"Base Skill Gain Rate",
-        "Category":"Eco - Gameplay",
+        "Category":"Eco:stadia_controller",
+        "Subcategory":"Gameplay:tactic:2",
         "Description":"The default experience gain for all players, regardless of their other sources of experience points and difficulty settings.",
         "Keywords":"base,skill,gain,rate",
         "FieldName":"BaseSkillGainRate",
@@ -529,7 +534,8 @@
     },
     {
         "DisplayName":"Skill Gain Multiplier",
-        "Category":"Eco - Gameplay",
+        "Category":"Eco:stadia_controller",
+        "Subcategory":"Gameplay:tactic:2",
         "Description":"Multiplier applied to the rate of skill points gained over time. Values below 1 decrease the rate, above 1 increase the rate.",
         "Keywords":"skill,gain,multiplier",
         "FieldName":"SkillGainMultiplier",
@@ -543,7 +549,8 @@
     },
     {
         "DisplayName":"Skill Damage Multiplier",
-        "Category":"Eco - Gameplay",
+        "Category":"Eco:stadia_controller",
+        "Subcategory":"Gameplay:tactic:2",
         "Description":"Scales skill penalty to suffocation. 0 to disable.",
         "Keywords":"skill,damage,multiplier",
         "FieldName":"SkillDamageMultiplier",
@@ -557,7 +564,8 @@
     },
     {
         "DisplayName":"Specialty Experience Per Level",
-        "Category":"Eco - Gameplay",
+        "Category":"Eco:stadia_controller",
+        "Subcategory":"Gameplay:tactic:2",
         "Description":"Factors into experience per level specialties. Default is 25, higher values increase experience requirement, lower values reduce it.",
         "Keywords":"specialty,experience",
         "FieldName":"SpecialtyExperiencePerLevel",
@@ -571,7 +579,8 @@
     },
     {
         "DisplayName":"Craft Resource Multiplier",
-        "Category":"Eco - Gameplay",
+        "Category":"Eco:stadia_controller",
+        "Subcategory":"Gameplay:tactic:2",
         "Description":"Multiplier applied to crafting resource cost. Values below 1 decrease crafting resource cost, above 1 increase resource cost.",
         "Keywords":"craft,resource,multiplier",
         "FieldName":"CraftResourceModifier",
@@ -585,7 +594,8 @@
     },
     {
         "DisplayName":"Craft Time Multiplier",
-        "Category":"Eco - Gameplay",
+        "Category":"Eco:stadia_controller",
+        "Subcategory":"Gameplay:tactic:2",
         "Description":"Multiplier applied to crafting time. Values below 1 decrease crafting time, above 1 increase crafting time.",
         "Keywords":"craft,time,multiplier",
         "FieldName":"CraftTimeModifier",
@@ -599,7 +609,8 @@
     },
     {
         "DisplayName":"Specialty Refund Percentage",
-        "Category":"Eco - Gameplay",
+        "Category":"Eco:stadia_controller",
+        "Subcategory":"Gameplay:tactic:2",
         "Description":"Percentage to refund a player when they remove a specialty.",
         "Keywords":"speciality,refund,percentage",
         "FieldName":"SpecialtyRefundPercentage",
@@ -614,7 +625,8 @@
     },
     {
         "DisplayName":"Player Experience Per Specialty",
-        "Category":"Eco - Gameplay",
+        "Category":"Eco:stadia_controller",
+        "Subcategory":"Gameplay:tactic:2",
         "Description":"Percentage of specialty experience that is also gained as level experience. Not recommended for public servers. Default is 0.0",
         "Keywords":"player,experience,speciality",
         "FieldName":"PlayerExperiencePerSpecialtyExperience",
@@ -628,7 +640,8 @@
     },
     {
         "DisplayName":"Item Stack Size Multiplier",
-        "Category":"Eco - Gameplay",
+        "Category":"Eco:stadia_controller",
+        "Subcategory":"Gameplay:tactic:2",
         "Description":"Multiplier applied to item maximum stack size. Values below 1 decrease maximum size, above 1 increases maximum size. A server restart is required for correct calculation.",
         "Keywords":"item,stack,size,multiplier",
         "FieldName":"StackSizeModifier",
@@ -642,7 +655,8 @@
     },
     {
         "DisplayName":"Item Weight Multiplier",
-        "Category":"Eco - Gameplay",
+        "Category":"Eco:stadia_controller",
+        "Subcategory":"Gameplay:tactic:2",
         "Description":"Multiplier applied to item weight. Values below 1 decrease item weight, above 1 increase item weight. A server restart is required for correct calculation.",
         "Keywords":"item,weight,multiplier",
         "FieldName":"WeightModifier",
@@ -656,7 +670,8 @@
     },
     {
         "DisplayName":"Fuel Amount Multiplier",
-        "Category":"Eco - Gameplay",
+        "Category":"Eco:stadia_controller",
+        "Subcategory":"Gameplay:tactic:2",
         "Description":"Multiplier applied to fuel yield per unit. Values below 1 decrease yield, above 1 increase yield. A server restart is required for correct calculation.",
         "Keywords":"fuel,amount,multiplier",
         "FieldName":"FuelModifier",
@@ -670,7 +685,8 @@
     },
     {
         "DisplayName":"Growth Rate Multiplier",
-        "Category":"Eco - Gameplay",
+        "Category":"Eco:stadia_controller",
+        "Subcategory":"Gameplay:tactic:2",
         "Description":"Global scale for how quickly plants mature.",
         "Keywords":"growth,rate,multiplier",
         "FieldName":"GrowthRateModifier",
@@ -684,7 +700,8 @@
     },
     {
         "DisplayName":"Storage Range Multiplier",
-        "Category":"Eco - Gameplay",
+        "Category":"Eco:stadia_controller",
+        "Subcategory":"Gameplay:tactic:2",
         "Description":"Multiplier applied to storage connection range. Values below 1 decrease range, above 1 increases range. A server restart is required for correct calculation.",
         "Keywords":"storage,range,multiplier",
         "FieldName":"ConnectionRangeModifier",
@@ -698,7 +715,8 @@
     },
     {
         "DisplayName":"Endgame Craft Cost",
-        "Category":"Eco - Gameplay",
+        "Category":"Eco:stadia_controller",
+        "Subcategory":"Gameplay:tactic:2",
         "Description":"Endgame crafting cost presets for Laser and Computer Lab. Does not affect work orders in progress.",
         "Keywords":"endgame,craft,cost",
         "FieldName":"EndgameCraftCost",
@@ -714,7 +732,8 @@
     },
     {
         "DisplayName":"Shelf Life Multiplier",
-        "Category":"Eco - Gameplay",
+        "Category":"Eco:stadia_controller",
+        "Subcategory":"Gameplay:tactic:2",
         "Description":"Adjusts the default shelf life of all foods, with higher values causing food to last longer. For example, setting to 2 doubles the shelf life while setting to 0.5 halves the shelf life.",
         "Keywords":"shelf,life,multiplier",
         "FieldName":"ShelfLifeMultiplier",
@@ -728,7 +747,8 @@
     },
     {
         "DisplayName":"Exhaustion After Hours",
-        "Category":"Eco - Gameplay",
+        "Category":"Eco:stadia_controller",
+        "Subcategory":"Gameplay:tactic:2",
         "Description":"Maximum hours a user can play per day. After their allotted time, they can still play but not expand calories with work. 0 means no limit.",
         "Keywords":"exhaustion,after,hours",
         "FieldName":"ExhaustionAfterHours",
@@ -743,7 +763,8 @@
     },
     {
         "DisplayName":"Rollover Daily Playtime",
-        "Category":"Eco - Gameplay",
+        "Category":"Eco:stadia_controller",
+        "Subcategory":"Gameplay:tactic:2",
         "Description":"When enabled, remaining playtime can be added to the next day.",
         "Keywords":"rollover,daily,playtime",
         "FieldName":"RolloverDailyPlaytime",
@@ -759,7 +780,8 @@
     },
     {
         "DisplayName":"Maximum Playtime Before Exhausted",
-        "Category":"Eco - Gameplay",
+        "Category":"Eco:stadia_controller",
+        "Subcategory":"Gameplay:tactic:2",
         "Description":"If Rollover Daily Playtime is enabled, this sets the maximum hours playtime in a day. This limits how much playtime a player can save up by not playing.",
         "Keywords":"playtime,before,exhausted",
         "FieldName":"MaximumPlaytimeBeforeExhausted",
@@ -774,7 +796,8 @@
     },
     {
         "DisplayName":"Create Meteor",
-        "Category":"Eco - Disasters",
+        "Category":"Eco:stadia_controller",
+        "Subcategory":"Disasters:landslide:3",
         "Description":"When enabled, a meteor will exist in the world.",
         "Keywords":"create,meteor",
         "FieldName":"CreateMeteor",
@@ -790,7 +813,8 @@
     },
     {
         "DisplayName":"Meteor Impact Days",
-        "Category":"Eco - Disasters",
+        "Category":"Eco:stadia_controller",
+        "Subcategory":"Disasters:landslide:3",
         "Description":"Time in days when the meteor will impact. Changing this value will override impact time for the current active meteor.",
         "Keywords":"meteor,impact",
         "FieldName":"MeteorImpactDays",
@@ -805,7 +829,8 @@
     },
     {
         "DisplayName":"Rent Enabled",
-        "Category":"Eco - Features",
+        "Category":"Eco:stadia_controller",
+        "Subcategory":"Features:featured_play_list:4",
         "Description":"When enabled, allows players to rent access to a given deed from another.",
         "Keywords":"rent",
         "FieldName":"RentEnabled",
@@ -821,7 +846,8 @@
     },
     {
         "DisplayName":"Voice Chat Enabled",
-        "Category":"Eco - Features",
+        "Category":"Eco:stadia_controller",
+        "Subcategory":"Features:featured_play_list:4",
         "Description":"When enabled, players will be able to use voice chat.",
         "Keywords":"voice,chat",
         "FieldName":"VoiceChatEnabled",
@@ -837,7 +863,8 @@
     },
     {
         "DisplayName":"Food Variety Multiplier Enabled",
-        "Category":"Eco - Features",
+        "Category":"Eco:stadia_controller",
+        "Subcategory":"Features:featured_play_list:4",
         "Description":"When enabled, the variety of food a player eats will provide a bonus.",
         "Keywords":"food,variety,multiplier",
         "FieldName":"FoodVarietyMultiplierEnabled",
@@ -853,7 +880,8 @@
     },
     {
         "DisplayName":"Food Tastiness Multiplier Enabled",
-        "Category":"Eco - Features",
+        "Category":"Eco:stadia_controller",
+        "Subcategory":"Features:featured_play_list:4",
         "Description":"When enabled, each player has unique preferences for each type of food that yields a bonus, and periodic \"cravings\" will emerge for an additional bonus.",
         "Keywords":"food,tastiness,multiplier",
         "FieldName":"FoodTastinessMultiplierEnabled",
@@ -869,7 +897,8 @@
     },
     {
         "DisplayName":"Paused",
-        "Category":"Eco - Features",
+        "Category":"Eco:stadia_controller",
+        "Subcategory":"Features:featured_play_list:4",
         "Description":"When enabled, the world will be on pause.",
         "Keywords":"paused",
         "FieldName":"Paused",
@@ -885,7 +914,8 @@
     },
     {
         "DisplayName":"Unpause At First Login",
-        "Category":"Eco - Features",
+        "Category":"Eco:stadia_controller",
+        "Subcategory":"Features:featured_play_list:4",
         "Description":"When enabled, the world will resume as soon as the first player logs in.",
         "Keywords":"unpause,login",
         "FieldName":"UnpauseAtFirstLogin",
@@ -901,7 +931,8 @@
     },
     {
         "DisplayName":"Empty Blocks Count As Windows",
-        "Category":"Eco - Features",
+        "Category":"Eco:stadia_controller",
+        "Subcategory":"Features:featured_play_list:4",
         "Description":"When enabled, rooms can have empty blocks serve as windows and still count as rooms.",
         "Keywords":"empty,blocks,count,windows",
         "FieldName":"EmptyBlocksCountAsWindows",
@@ -917,7 +948,8 @@
     },
     {
         "DisplayName":"Room Category Diminishing Return Rate",
-        "Category":"Eco - Features",
+        "Category":"Eco:stadia_controller",
+        "Subcategory":"Features:featured_play_list:4",
         "Description":"Repeated rooms earn this multiple value of the previous ones. This makes duplicate rooms less valuable in a house.",
         "Keywords":"room,category,diminishing,return,rate",
         "FieldName":"RoomCategoryDiminishingReturnRate",
@@ -931,7 +963,8 @@
     },
     {
         "DisplayName":"Wall Blocks Per Window",
-        "Category":"Eco - Features",
+        "Category":"Eco:stadia_controller",
+        "Subcategory":"Features:featured_play_list:4",
         "Description":"Specifies how many wall blocks are required to make one empty window or door block without penalty. It counts all wall blocks in the room, including window blocks.",
         "Keywords":"wall,blocks,window",
         "FieldName":"WallBlocksPerWindow",
@@ -945,7 +978,8 @@
     },
     {
         "DisplayName":"Allow Fast Forward",
-        "Category":"Eco - Features",
+        "Category":"Eco:stadia_controller",
+        "Subcategory":"Features:featured_play_list:4",
         "Description":"When enabled, time will accelerate if all online players sleep in a bed. This shouldn't be enabled for public servers!",
         "Keywords":"allow,fast,forward",
         "FieldName":"AllowFastForward",
@@ -961,7 +995,8 @@
     },
     {
         "DisplayName":"Sleep Time Pass Multiplier",
-        "Category":"Eco - Features",
+        "Category":"Eco:stadia_controller",
+        "Subcategory":"Features:featured_play_list:4",
         "Description":"The maximum time multiplier that will pass while sleeping. Lower this to make the simulation fast-forward more reliably.",
         "Keywords":"sleep,time,pass,multiplier",
         "FieldName":"SleepTimePassMultiplier",
@@ -975,7 +1010,8 @@
     },
     {
         "DisplayName":"Time To Reach Maximum Time Rate",
-        "Category":"Eco - Features",
+        "Category":"Eco:stadia_controller",
+        "Subcategory":"Features:featured_play_list:4",
         "Description":"How long it takes to reach the maximum sleep time. Makes for a smooth transition into sleeping.",
         "Keywords":"maximum,time,rate",
         "FieldName":"TimeToReachMaximumTimeRate",
@@ -990,7 +1026,8 @@
     },
     {
         "DisplayName":"Allow Overthrow",
-        "Category":"Eco - Civics",
+        "Category":"Eco:stadia_controller",
+        "Subcategory":"Civics:demography:5",
         "Description":"When enabled, overthrowing a government will be allowed and a constitution with higher house value than the current can be ratified. It will also be impossible to make laws about placing or crafting a constitution.",
         "Keywords":"overthrow",
         "FieldName":"AllowOverthrow",
@@ -1006,7 +1043,8 @@
     },
     {
         "DisplayName":"Value Addition To Overthrow",
-        "Category":"Eco - Civics",
+        "Category":"Eco:stadia_controller",
+        "Subcategory":"Civics:demography:5",
         "Description":"To overthrow an existing government, a constitution must be placed in a building that exceeds the previous constitution's value by this percentage. 100 = 100%.",
         "Keywords":"overthrow",
         "FieldName":"ValueAdditionToOverthrow",
@@ -1021,7 +1059,8 @@
     },
     {
         "DisplayName":"Day Range For Active Demographic",
-        "Category":"Eco - Civics",
+        "Category":"Eco:stadia_controller",
+        "Subcategory":"Civics:demography:5",
         "Description":"The \"Active Players\" demographic will check this many of the past days to determine the hours played by a user.",
         "Keywords":"day,range,active,demographic",
         "FieldName":"DayRangeForActiveDemographic",
@@ -1036,7 +1075,8 @@
     },
     {
         "DisplayName":"Hours Played To Be Active Demographic",
-        "Category":"Eco - Civics",
+        "Category":"Eco:stadia_controller",
+        "Subcategory":"Civics:demography:5",
         "Description":"The \"Active Players\" demographic will apply to any users who played this many hours within the specified Day Range.",
         "Keywords":"active,demographic",
         "FieldName":"HoursPlayedToBeActiveDemographic",
@@ -1051,7 +1091,8 @@
     },
     {
         "DisplayName":"Day Range For Abandoned Demographic",
-        "Category":"Eco - Civics",
+        "Category":"Eco:stadia_controller",
+        "Subcategory":"Civics:demography:5",
         "Description":"The \"Abandoned Players\" demographic will check this many past days for hours played by the user.",
         "Keywords":"range,abandoned,demographic",
         "FieldName":"DayRangeForAbandonedDemographic",
@@ -1066,7 +1107,8 @@
     },
     {
         "DisplayName":"Hours Played To Be Abandoned Demographic",
-        "Category":"Eco - Civics",
+        "Category":"Eco:stadia_controller",
+        "Subcategory":"Civics:demography:5",
         "Description":"The \"Abandoned Players\" demographic will apply to any users who have not played more than this many hours within the past number of days specified in the Day Range setting.",
         "Keywords":"hours,played,abandoned,demographic",
         "FieldName":"HoursPlayedToBeAbandonedDemographic",
@@ -1081,7 +1123,8 @@
     },
     {
         "DisplayName":"Citizen Age For Abandoned Demographic",
-        "Category":"Eco - Civics",
+        "Category":"Eco:stadia_controller",
+        "Subcategory":"Civics:demography:5",
         "Description":"The \"Abandoned Players\" demographic will only apply to users who have a citizen age greater than this many hours.",
         "Keywords":"citizen,age,abandoned,demographic",
         "FieldName":"CitizenAgeForAbandonedDemographic",
@@ -1096,7 +1139,8 @@
     },
     {
         "DisplayName":"Minutes Between Civics Updates",
-        "Category":"Eco - Civics",
+        "Category":"Eco:stadia_controller",
+        "Subcategory":"Civics:demography:5",
         "Description":"Demographics are updated after this much time has passed.",
         "Keywords":"minutes,civics,updates",
         "FieldName":"MinutesBetweenCivicsUpdates",
@@ -1111,7 +1155,8 @@
     },
     {
         "DisplayName":"Allow Invalid Civic Container Time In Minutes",
-        "Category":"Eco - Civics",
+        "Category":"Eco:stadia_controller",
+        "Subcategory":"Civics:demography:5",
         "Description":"Sets how much time can a civics object have an invalid or missing host object before it goes invalid",
         "Keywords":"invalid,civic,container",
         "FieldName":"AllowInvalidCivicContainerTimeInMinutes",
@@ -1126,7 +1171,8 @@
     },
     {
         "DisplayName":"Recurring Transfer Frequency In Minutes",
-        "Category":"Eco - Civics",
+        "Category":"Eco:stadia_controller",
+        "Subcategory":"Civics:demography:5",
         "Description":"Recurring transfers like rent and wages are paid after this many minutes.",
         "Keywords":"recurring,transfer,frequency",
         "FieldName":"RecurringTransferFrequencyInMinutes",
@@ -1141,7 +1187,8 @@
     },
     {
         "DisplayName":"Allow Laws To Prevent Login Or Play",
-        "Category":"Eco - Civics",
+        "Category":"Eco:stadia_controller",
+        "Subcategory":"Civics:demography:5",
         "Description":"When enabled, laws can prevent someone from logging in or playing. Enable with caution: users can create a law that blocks everyone from logging.",
         "Keywords":"laws,prevent,login,play",
         "FieldName":"AllowLawsToPreventLoginOrPlay",
@@ -1157,7 +1204,8 @@
     },
     {
         "DisplayName":"Maximum Election Hours",
-        "Category":"Eco - Civics",
+        "Category":"Eco:stadia_controller",
+        "Subcategory":"Civics:demography:5",
         "Description":"After this many hours, an election will end with or without a winner.",
         "Keywords":"election,hours",
         "FieldName":"MaximumElectionHours",
@@ -1172,7 +1220,8 @@
     },
     {
         "DisplayName":"Minimum Required Eligible Voters",
-        "Category":"Eco - Civics",
+        "Category":"Eco:stadia_controller",
+        "Subcategory":"Civics:demography:5",
         "Description":"An election will not produce a winner unless this percentage of eligible voters have cast their vote.",
         "Keywords":"eligible,voters",
         "FieldName":"MinimumPercentOfEligibleVotersRequired",
@@ -1187,7 +1236,8 @@
     },
     {
         "DisplayName":"Minimum Days Between Election Types",
-        "Category":"Eco - Civics",
+        "Category":"Eco:stadia_controller",
+        "Subcategory":"Civics:demography:5",
         "Description":"Once an election of a certain type completes, another of the same type cannot be started for this many days.",
         "Keywords":"elections",
         "FieldName":"MinimumDaysBetweenElectionsOfThisType",
@@ -1202,7 +1252,8 @@
     },
     {
         "DisplayName":"End Election Early When This Percent Have Voted",
-        "Category":"Eco - Civics",
+        "Category":"Eco:stadia_controller",
+        "Subcategory":"Civics:demography:5",
         "Description":"If this percentage of voters have cast their vote, then the election will end early (but not sooner than the Minimum Election Time).",
         "Keywords":"election,voted",
         "FieldName":"EndElectionEarlyWhenThisPercentHaveVoted",
@@ -1217,7 +1268,8 @@
     },
     {
         "DisplayName":"Percent Of All Voters To Instant Win",
-        "Category":"Eco - Civics",
+        "Category":"Eco:stadia_controller",
+        "Subcategory":"Civics:demography:5",
         "Description":"If this percent of all possible voters votes yes, the election will finish instantly.",
         "Keywords":"voters,instant,win",
         "FieldName":"PercentOfAllVotersToInstantWin",
@@ -1232,7 +1284,8 @@
     },
     {
         "DisplayName":"Percent Of All Voters To Instant Lose",
-        "Category":"Eco - Civics",
+        "Category":"Eco:stadia_controller",
+        "Subcategory":"Civics:demography:5",
         "Description":"If this percent of all possible voters votes no, the election will fail instantly.",
         "Keywords":"voters,instant,lose",
         "FieldName":"PercentOfAllVotersToInstantLose",
@@ -1247,7 +1300,8 @@
     },
     {
         "DisplayName":"Anonymous Voting",
-        "Category":"Eco - Civics",
+        "Category":"Eco:stadia_controller",
+        "Subcategory":"Civics:demography:5",
         "Description":"When enabled, the way a citizen votes will be hidden",
         "Keywords":"anonymous,voting",
         "FieldName":"AnonymousVoting",
@@ -1263,7 +1317,8 @@
     },
     {
         "DisplayName":"Twitch Vote Weight",
-        "Category":"Eco - Civics",
+        "Category":"Eco:stadia_controller",
+        "Subcategory":"Civics:demography:5",
         "Description":"The percentage value a vote from a Twitch viewer counts relative to vote from a player.",
         "Keywords":"twitch,vote,weight",
         "FieldName":"TwitchVoteWeight",
@@ -1277,7 +1332,8 @@
     },
     {
         "DisplayName":"Max Percent Twitch Votes",
-        "Category":"Eco - Civics",
+        "Category":"Eco:stadia_controller",
+        "Subcategory":"Civics:demography:5",
         "Description":"The maximum percentage contribution all combined Twitch voters can have in an election.",
         "Keywords":"twitch,votes",
         "FieldName":"MaxPercentTwitchVotes",
@@ -1292,7 +1348,8 @@
     },
     {
         "DisplayName":"In Game Language",
-        "Category":"Eco - Gameplay",
+        "Category":"Eco:stadia_controller",
+        "Subcategory":"Gameplay:tactic:2",
         "Description":"The currently selected language. If you change languages, you'll need to restart the server for the changes to fully take effect.",
         "Keywords":"language,game",
         "FieldName":"Language",
@@ -1320,7 +1377,8 @@
     },
     {
         "DisplayName":"World Tick CPU Max",
-        "Category":"Eco - Performance and Limits",
+        "Category":"Eco:stadia_controller",
+        "Subcategory":"Performance and Limits:speed:6",
         "Description":"Determines how much of any CPU core can be used by the server. Defaults to 25%, and should supposedly not be set higher than 75%.",
         "Keywords":"world,tick,cpu,max",
         "FieldName":"WorldTickCPUMax",
@@ -1354,7 +1412,8 @@
     },
     {
         "DisplayName":"Parallel World Object Ticks",
-        "Category":"Eco - Performance and Limits",
+        "Category":"Eco:stadia_controller",
+        "Subcategory":"Performance and Limits:speed:6",
         "Description":"An experimental feature that allows parallel (as opposed to sequential) world object ticks. May increase performance at the cost of stability.",
         "Keywords":"parallel,world,object,ticks",
         "FieldName":"ParallelWorldObjectTicks",
@@ -1370,7 +1429,8 @@
     },
     {
         "DisplayName":"Minimum Tree Spawn Distance",
-        "Category":"Eco - Performance and Limits",
+        "Category":"Eco:stadia_controller",
+        "Subcategory":"Performance and Limits:speed:6",
         "Description":"Minimum distance between trees. Lower values can impact performance negatively.",
         "Keywords":"minimum,tree,spawn,distance",
         "FieldName":"MinTreeSpawnDistance",
@@ -1384,7 +1444,8 @@
     },
     {
         "DisplayName":"Max Tooltip Cache Size",
-        "Category":"Eco - Performance and Limits",
+        "Category":"Eco:stadia_controller",
+        "Subcategory":"Performance and Limits:speed:6",
         "Description":"Maximum number of tooltip parts stored in server's cache. Lowering this number can reduce RAM usage, but may impact response time for user's tooltip request. Changing this setting will take effect after server restart.",
         "Keywords":"max,tooltip,cache,size",
         "FieldName":"MaxTooltipCacheSize",
@@ -1398,7 +1459,8 @@
     },
     {
         "DisplayName":"Client Update Rate",
-        "Category":"Eco - Performance and Limits",
+        "Category":"Eco:stadia_controller",
+        "Subcategory":"Performance and Limits:speed:6",
         "Description":"Rate at which the server updates to clients, per second.",
         "Keywords":"rate,server,update,client",
         "FieldName":"Rate",
@@ -1422,7 +1484,8 @@
     },
     {
         "DisplayName":"World Width",
-        "Category":"Eco - Performance and Limits",
+        "Category":"Eco:stadia_controller",
+        "Subcategory":"Performance and Limits:speed:6",
         "Description":"The WorldWidth must match the WorldLength, default value is 72. Note that higher values require more CPU and memory. https://wiki.play.eco/en/Server_Configuration#Change_World_Size",
         "Keywords":"world,width,map,mapsize,size",
         "FieldName":"WorldWidth",
@@ -1436,7 +1499,8 @@
     },
     {
         "DisplayName":"World Length",
-        "Category":"Eco - Performance and Limits",
+        "Category":"Eco:stadia_controller",
+        "Subcategory":"Performance and Limits:speed:6",
         "Description":"The WorldLength must match the WorldWidth, default value is 72. Note that higher values require more CPU and memory. https://wiki.play.eco/en/Server_Configuration#Change_World_Size",
         "Keywords":"world,length,map,mapsize,size",
         "FieldName":"WorldLength",
@@ -1450,7 +1514,8 @@
     },
     {
         "DisplayName":"Water Level",
-        "Category":"Eco - Performance and Limits",
+        "Category":"Eco:stadia_controller",
+        "Subcategory":"Performance and Limits:speed:6",
         "Description":"The WaterLevel indicates the height of the water level.",
         "Keywords":"world,water,level,waterlevel",
         "FieldName":"WaterLevel",
