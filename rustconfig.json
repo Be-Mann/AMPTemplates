@@ -543,7 +543,7 @@
     {
         "DisplayName":"Enable Server Wipe On Update",
         "Category":"Rust:stadia_controller",
-        "Subcategory":"Wipe Settings:folder_delete:3",
+        "Subcategory":"Wipe Settings:folder_delete:4",
         "Description":"If set, the server will be wiped when it is updated. All .map and .sav files in server/AMPRustServer will be deleted, as well as optionally any other files specified in Mod Database File Wipelist and Carbon/Oxide Data File Wipelist",
         "Keywords":"wipe,delete",
         "FieldName":"EnableWipe",
@@ -558,7 +558,7 @@
     {
         "DisplayName":"Mod Database File Wipelist",
         "Category":"Rust:stadia_controller",
-        "Subcategory":"Wipe Settings:folder_delete:3",
+        "Subcategory":"Wipe Settings:folder_delete:4",
         "Description":"If required, specifies a space-separated list of .db files in the Server Identity subdirectory to wipe on update. Wildcards (*) can be used",
         "Keywords":"wipe,delete,mod,db,database,files,wipelist",
         "FieldName":"ModDBWipelist",
@@ -570,7 +570,7 @@
     {
         "DisplayName":"Carbon/Oxide Data File Wipelist",
         "Category":"Rust:stadia_controller",
-        "Subcategory":"Wipe Settings:folder_delete:3",
+        "Subcategory":"Wipe Settings:folder_delete:4",
         "Description":"If required, specifies a space-separated list of .json files in carbon/data or oxide/data (as applicable) to wipe on update. Wildcards (*) can be used",
         "Keywords":"wipe,delete,carbon,oxide,files,wipelist",
         "FieldName":"CarbonOxideDataWipelist",
@@ -581,7 +581,8 @@
     },
     {
         "DisplayName":"Server Branch",
-        "Category":"SteamCMD and Updates",
+        "Category":"Updates",
+        "Subcategory":"Mod Loaders:code:3",
         "Description":"Sets the server branch to install.Update the server after switching branches",
         "Keywords":"server,branch,depot",
         "FieldName":"ServerBranch",
@@ -614,7 +615,8 @@
     },
     {
         "DisplayName":"Custom CPU Priority",
-        "Category":"Performance and Limits",
+        "Category":"Rust:stadia_controller",
+        "Subcategory":"Performance and Limits:speed:3",
         "Description":"If activated, the server is executed with priority",
         "Keywords":"cpu,performance,limits",
         "FieldName":"EnableCPUPriority",
@@ -628,7 +630,8 @@
     },
     {
         "DisplayName":"CPU Priority",
-        "Category":"Performance and Limits",
+        "Category":"Rust:stadia_controller",
+        "Subcategory":"Performance and Limits:speed:3",
         "Description":"Setting which priority the server has, default is Normal",
         "Keywords":"cpu,performance,limits",
         "FieldName":"CPUPriority",
@@ -644,7 +647,8 @@
     },
     {
         "DisplayName":"CPU Affinity",
-        "Category":"Performance and Limits",
+        "Category":"Rust:stadia_controller",
+        "Subcategory":"Performance and Limits:speed:3",
         "Description":"Setting which priority the server has, default is Normal",
         "Keywords":"cpu,performance,limits",
         "FieldName":"CPUAffinity",
