@@ -7,7 +7,6 @@ Meta.Author=Be_Mann
 Meta.URL=https://www.farming-simulator.com/
 Meta.DisplayImageSource=steam:1248130
 Meta.EndpointURIFormat=https://{0}
-Meta.ConfigManifest=ls22config.json
 Meta.ConfigRoot=ls22.kvp
 Meta.MinAMPVersion=2.4.3.0
 Meta.NoCommercialUsage=True
