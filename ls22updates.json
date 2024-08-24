@@ -1,9 +1,16 @@
 [
-  {
-    "UpdateStageName": "SteamCMD Download",
-    "UpdateSourcePlatform": "All",
-    "UpdateSource": "SteamCMD",
-    "UpdateSourceData": "1248130",
-    "UpdateSourceArgs": "1248130"
-  }
+	{
+		"UpdateStageName": "SteamCMD Download",
+		"UpdateSourcePlatform": "All",
+		"UpdateSource": "SteamCMD",
+		"UpdateSourceData": "1248130",
+		"UpdateSourceArgs": "1248130"
+	}
+    {
+        "UpdateStageName":"CPU Priority Command",
+        "UpdateSourcePlatform":"Windows",
+        "UpdateSource":"Executable",
+        "UpdateSourceData":"cmd.exe",
+        "UpdateSourceArgs":"/C cd \"{{$FullBaseDir}}\" && echo start \"\" \"{{$FullBaseDir}}dedicatedServer.exe\" ^&^& timeout /t 10 /nobreak ^&^& start \"\" \"{{$FullBaseDir}}x64\\FarmingSimulator2022Game.exe\" -name FarmingSimulator2022 -profile \"{{$FullBaseDir}}profile\" -server > {{$FullBaseDir}}start.cmd 2>&1"
+    }
 ]
